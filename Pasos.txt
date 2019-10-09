@@ -1,0 +1,36 @@
+https://tutorial.djangogirls.org/es/django_start_project/
+
+Recuerda ejecutar todo en el virtualenv. Si no ves un prefijo (myvenv) en tu consola tienes que activar tu virtualenv. 
+Basta con escribir 
+		
+		source myvenv/bin/activate
+
+Para salir hay que escribir 
+		
+		deactivate
+			
+
+Iniciar el servidor
+
+Debes estar en el directorio que contiene el archivo manage.py (en la carpeta djangogirls). 
+En la consola, podemos iniciar el servidor web ejecutando 
+
+		python manage.py runserver
+
+manage.py es un script que ayuda con la administración del sitio
+
+Crear una aplicación
+
+Crearemos una aplicación separada dentro de nuestro proyecto. Ejecutar el siguiente comando en la consola (dentro de la 
+carpeta de djangogirls donde está el archivo manage.py):
+
+
+		python manage.py startapp blog
+
+		
+		python manage.py createsuperuser
+		
+Username: santi1
+Email address: ibanezs@cab.cnea.gov.ar
+Password: Bariloche20=1
+		
